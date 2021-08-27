@@ -1,3 +1,7 @@
+---
+label: Home
+---
+
 # Overchute Docs - demo
 
 ![](../static/android-chrome-512x512.png)
