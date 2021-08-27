@@ -4,6 +4,7 @@ url: # Add your website address here
 branding:
   title: Overchute
   label: Docs
+  log: static/logo_full.png
 favicon: static/favicon-32x32.png
 # links:
 #   - text: Getting Started
