@@ -2,9 +2,9 @@
 label: Crowdsale Protocol
 ---
 
-# Crowdsale Protocol
-
 ![](/static/logo_full.png)
+
+# Crowdsale Protocol
 
 ### Installation
 
