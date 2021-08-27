@@ -9,23 +9,28 @@
     <!-- Primary Meta Tags -->
     <title>Grant Details | Documentation</title>
     <meta name="title" content="Grant Details | Documentation">
+    <meta name="description" content="Grant category: Apps & Open Internet Services" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fermartz.github.io/docs-over/grant-application/grant-details/">
     <meta property="og:title" content="Grant Details | Documentation">
+    <meta property="og:description" content="Grant category: Apps & Open Internet Services">
+    <meta property="og:image" content="https://fermartz.github.io/docs-over/static/overchute_uml.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://fermartz.github.io/docs-over/grant-application/grant-details/">
     <meta property="twitter:title" content="Grant Details | Documentation">
+    <meta property="twitter:description" content="Grant category: Apps & Open Internet Services">
+    <meta property="twitter:image" content="https://fermartz.github.io/docs-over/static/overchute_uml.png">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/docs-over/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/docs-over/static/favicon-32x32.png" rel="icon" />
-    <link href="/docs-over/resources/css/retype.css?v=1.8.2.683407594543" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/docs-over/resources/css/retype.css?v=1.8.2.683408720495" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/docs-over/resources/js/config.js?v=1.8.2.683407594543" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/docs-over/resources/js/config.js?v=1.8.2.683408720495" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/docs-over/resources/js/retype.js?v=1.8.2" defer data-turbo-track="reload"></script>
 </head>
     <body>
@@ -168,6 +173,132 @@
         <span>Grant Details</span>
     </h1>
 </doc-anchor-target>
+<hr />
+<doc-anchor-target id="general-info">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#general-info">#</doc-anchor-trigger>
+        <span>General Info</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Grant category: Apps &amp; Open Internet Services</li>
+<li>Grant size: $25,000</li>
+<li>Already started: Yes. <a href="https://github.com/Overchute/overchute-app">https://github.com/Overchute/overchute-app</a></li>
+<li>Referral: Dfinity mailing list, Twitter &amp; Medium</li>
+<li>Open source: Yes</li>
+<li>Monetize: Not sure yet</li>
+</ul>
+<hr />
+<doc-anchor-target id="project-description">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#project-description">#</doc-anchor-trigger>
+        <span>Project Description</span>
+    </h2>
+</doc-anchor-target>
+<p>Public goods are a shared heritage that drives human progress. But because they are non-excludable, free-riders benefit just as much as contributors, so it is difficult to sustainably fund them even if their value far exceeds their cost. The lack of a profitable business model means that public goods are often under-provided by free markets.</p>
+<p>The Internet Computer has enabled the practical implementation of a new mechanism for voluntary funding of public goods, called the Blind Crowdsale Protocol. It mitigates the free-rider problem in situations where existing trust-based mechanisms fail because of competitive dynamics or a product of known quality is required at the lowest possible price. An important use case is an intellectual property (IP) such as patented technologies or copyright-protected digital goods like software, literature, art, music and film. The protocol works as follows:</p>
+<ul>
+<li>A creator offers to release an already-existing work of IP under an open licence for a specified price.</li>
+<li>Members of the public make contributions to the crowdsale.</li>
+<li>Individual contributions, and therefore the total contributed amount, are not disclosed.</li>
+<li>The crowdsale runs to its end date, regardless of whether the offer price has been reached.</li>
+<li>If the offer price isn&#x27;t reached, all contributions are refunded.</li>
+<li>If it&#x27;s reached or exceeded, the creator pays the offer price, and the IP is released under the open licence. After an admin fee, the overshoot (of excess contributions) is shared between the creator and the contributors. The contributors&#x27; share is refunded in proportion to individual contributions.</li>
+</ul>
+<p>Because the total contributed amount isn&#x27;t disclosed, potential contributors who value the IP can&#x27;t free-ride without risking the failure of the crowdsale, and they are incentivised to recruit other contributors, to increase their own refund from the overshoot. Overshoot-sharing also encourages creators to keep offer prices low and provides a revenue stream to fund operations.</p>
+<p><em>Overchute</em> is a decentralized smart-contract application implementing the Blind Crowdsale Protocol for IP as an open internet service on the Internet Computer. Its goal is to provide a new monetization channel for the creator economy while enriching the public domain. With its user base of creators and contributors, it has the potential to bring large communities to the Internet Computer. The MVP can be implemented without known barriers or significant dependencies. The grant funding will be used to fund developer hours and cover sundry expenses.</p>
+<hr />
+<doc-anchor-target id="project-roadmap--milestones">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#project-roadmap--milestones">#</doc-anchor-trigger>
+        <span>Project Roadmap &amp; Milestones</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="/docs-over/static/overchute_uml.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ul>
+<li><strong>Milestone 0</strong> - Project kick-off (Completed 31 Aug 2021)
+<ul>
+<li>Protocol and dapp design</li>
+<li>Branding, pitch deck &amp; landing page</li>
+<li>Create ICP dApp shell, crowdsale canister, project&#x27;s UML</li>
+<li>Apply for Dfinity Foundation Developer Grant</li>
+</ul>
+</li>
+<li><strong>Milestone 1</strong> - Create crowdsales (Target date: 30 September 2021)
+<ul>
+<li>Develop crowdsale database and CRUD operations</li>
+<li>Develop front-end form to create crowdsales</li>
+<li>Milestone 2 - Execute crowdsales (Target date: 31 October 2021)</li>
+<li>Allow navigation to crowdsale</li>
+<li>Allow contributions to crowdsale</li>
+<li>Apply deadline mechanism (protocol rules) to distribute funds</li>
+<li>Create status change module</li>
+</ul>
+</li>
+<li><strong>Milestone 3</strong> - MVP launch (Target date: 20 December 2021)
+<ul>
+<li>Create font and back end functionality to display crowdsales statuses</li>
+<li>Add testing modules: public testing</li>
+<li>Release</li>
+</ul>
+</li>
+</ul>
+<hr />
+<doc-anchor-target id="unique-benefits-for-internet-computer-ecosystem">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#unique-benefits-for-internet-computer-ecosystem">#</doc-anchor-trigger>
+        <span>Unique Benefits for Internet Computer Ecosystem</span>
+    </h2>
+</doc-anchor-target>
+<p>Overchute provides a decentralized finance tool to meet a specific need in the booming digital creator economy. For creators, it offers a new monetization channel that doesn&#x27;t require ongoing enforcement of restrictive licences. For contributors, it provides a safe way to collaborate with others to secure usage rights to valuable IP. For the public, the Blind Crowdsale Protocol enables the efficient provision of public goods by incentivizing honest offer prices and contributions.</p>
+<p>With use-cases across several digital media industries, Overchute will be used by influential creators with large communities of followers. To participate in crowdsales, contributors will need to set up wallets to hold cycles, which will introduce them to the Internet Computer and reduce friction for using other apps. Furthermore, Overchute can be used as a mechanism for sustainable funding developers building open-source utilities for the Internet Computer ecosystem itself.</p>
+<p>Overchute will be open-source from the start, and the goal is to run it as an Open Internet Service using the features of the Service Nervous System. Ownership will be gradually decentralized using a token incentive model that rewards successful crowdsales and builds network effects.</p>
+<hr />
+<doc-anchor-target id="team-dynamics">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#team-dynamics">#</doc-anchor-trigger>
+        <span>Team Dynamics</span>
+    </h2>
+</doc-anchor-target>
+<p>The project team has four members, working remotely on a part-time basis:</p>
+<ul>
+<li><strong>Artur Khaialiev</strong>
+<ul>
+<li>Role: Smart contract &amp; fullstack developer</li>
+<li>Location: Vienna, Austria</li>
+<li>Qualifications: BSc Computer Science (Data Science track), Innopolis University, Innopolis, - Russia: MSc Computer Science, University of Vienna, Vienna, Austria</li>
+<li>Experience: Backend Developer at RTK Soft Labs, Innopolis, Russia; Chief IT-engineer at Sbertech, Innopolis, Russia. More than 6 years of development in various projects including blockchain applications. Expertise in machine learning, data mining, mobile, backend, frontend development.</li>
+</ul>
+</li>
+<li><strong>Fernando Martinez</strong>
+<ul>
+<li>Role: Smart contract &amp; fullstack developer</li>
+<li>Location: Houston, Texas, USA</li>
+<li>Qualifications: Bachelor of BA in Management Information Systems, C.T. Bauer College of Business, University of Houston, Houston Texas.</li>
+<li>Experience: 11+ years in designing, coding and implementing fullstack web applications. Deep curiosity for learning that led to quickly adapt and acquire broad technical knowledge of server environments, programming languages, databases, frameworks, libraries and modern tools and tool-kits. Currently works at Mesa Technologies and previously at AIG.</li>
+</ul>
+</li>
+<li><strong>Malcolm Murray</strong>
+<ul>
+<li>Role: Product &amp; protocol designer (and current owner of South African company Overchute (Pty) Ltd, reg: 2021/801241/07)</li>
+<li>Location: Secunda, South Africa</li>
+<li>Qualifications: MSc (2011) &amp; BSc (2009) Industrial Engineering, University of the Witwatersrand, Johannesburg</li>
+<li>Experience: 10 years in the manufacturing industry, focusing on operations excellence and business process improvement, with an emphasis on data analysis and modelling. Special interest in incentive design and market dynamics.</li>
+</ul>
+</li>
+<li><strong>Houman Shadab</strong>
+<ul>
+<li>Role: Legal advisor</li>
+<li>Location: New York City, New York, USA</li>
+<li>Qualifications: Doctor of Jurisprudence (J.D.) (2002) University of Southern California - School of Law; B.A. (1998) University of California at Berkeley</li>
+<li>Experience: Director of the Innovation Center for Law and Technology at New York Law School and a Fellow at Stanford CodeX. Prolific and influential expert at the intersection of law, technology, and business. Co-founder of smart legal contracts startup Clause.</li>
+</ul>
+</li>
+</ul>
 
 
 
