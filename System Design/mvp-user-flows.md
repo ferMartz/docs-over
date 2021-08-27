@@ -1,5 +1,7 @@
 # MVP User Flows
 
+---
+
 !!!
 Off-dapp actions are shown in light gray. On-dapp actions are shown in green.
 !!!
