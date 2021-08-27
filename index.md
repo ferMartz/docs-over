@@ -1,5 +1,5 @@
 ---
-label: Home
+label: Crowdsale Protocol
 ---
 
 # Overchute Docs - demo
