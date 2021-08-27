@@ -44,7 +44,7 @@ _Overchute_ is a decentralized smart-contract application implementing the Blind
 - **Milestone 1** - Create crowdsales (Target date: 30 September 2021)
   - Develop crowdsale database and CRUD operations
   - Develop front-end form to create crowdsales
-  - Milestone 2 - Execute crowdsales (Target date: 31 October 2021)
+- **Milestone 2** - Execute crowdsales (Target date: 31 October 2021)
   - Allow navigation to crowdsale
   - Allow contributions to crowdsale
   - Apply deadline mechanism (protocol rules) to distribute funds
