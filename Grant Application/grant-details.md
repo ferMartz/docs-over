@@ -54,6 +54,32 @@ _Overchute_ is a decentralized smart-contract application implementing the Blind
   - Add testing modules: public testing
   - Release
 
+| Date           | Milestone                                                             | Status  | Assigned To |
+|----------------|-----------------------------------------------------------------------|---------|-------------|
+|                | **Phase 0**                                                           |         |             |
+| 07/31/2021     | Project Start                                                         | Done    | Team        |
+| 08/03/2021     | Project details                                                       | Done    | Malcolm     |
+| 08/08/2021     | Create landing page                                                   | Done    | Fer         |
+| 08/12/2021     | Create Overchute docs                                                 | Done    | Artur       |
+| 08/13/2021     | Add Grant details to docs                                             | Done    | Malcolm     |
+| 08/15/2021     | Create ICP dApp shell                                                 | Done    | Fer         |
+| 08/22/2021     | Create crowdsale canister                                             | Done    | Artur       |
+| 8/26/2021      | Create project's UML                                                  | Done    | Fer         |
+| 8/27/2021      | Apply for Dfinity's grant                                             | Done    | Team        |
+|                | **Phase 1**                                                           |         |             |
+| September 2021 | Allow users to login to Overchute's dApp with the internet's identity | Created | Fer/Artur   |
+|                | Create crowdsale database                                             | Created | Artur       |
+|                | Allow CRUD operations for crowdsales                                  | Created | Fer/Artur   |
+|                | Create front-end form to insert crowdsales                            | Created | Fer         |
+|                | **Phase 2**                                                           |         |             |
+| October 2021   | Create search module front and back end                               | Created | Fer/Artur   |
+|                | Apply deadline mechanism                                              | Created | Artur       |
+|                | Create change status module                                           | Created | Artur       |
+|                | **Phase 3**                                                           |         |             |
+| November 2021  | Create font and back end functionality to display crowdsales statuses | Created | Fer/Artur   |
+|                | Add testing modules: public testing                                   | Created | Team        |
+| December 2021  | Release                             
+
 ---
 
 ## Unique Benefits for Internet Computer Ecosystem
