@@ -2,9 +2,9 @@
 label: Crowdsale Protocol
 ---
 
-# Overchute Docs - demo
+# Crowdsale Protocol
 
-![](../static/android-chrome-512x512.png)
+![](/static/logo_full.png)
 
 ### Installation
 
