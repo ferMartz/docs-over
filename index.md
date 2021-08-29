@@ -1,5 +1,6 @@
 ---
 label: Crowdsale Protocol
+icon: Home
 ---
 
 ![](/static/logo_full.png)

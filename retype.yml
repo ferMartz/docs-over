@@ -8,8 +8,9 @@ branding:
   label: Docs
   logo: /static/logo_full.svg
 favicon: /static/favicon-32x32.png
-# links:
-#   - text: Getting Started
-#     link: https://retype.com/guides/getting-started/
+links:
+  - text: Github
+    link: https://github.com/Overchute
+    icon: mark-github
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
